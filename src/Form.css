@@ -1,0 +1,37 @@
+.form_container {
+  width: 90vw;
+  height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 0.9rem;
+}
+
+td > p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+td > input {
+  width: 95%;
+}
+
+h5 {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  td,
+  th {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+}
